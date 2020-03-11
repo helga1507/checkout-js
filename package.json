@@ -1,6 +1,6 @@
 {
   "name": "@bigcommerce/checkout",
-  "version": "1.26.0",
+  "version": "2.0.0",
   "private": true,
   "description": "Browser-based application providing a seamless UI for BigCommerce shoppers to complete their checkout.",
   "scripts": {
@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/bigcommerce/checkout-js#readme",
   "dependencies": {
-    "@bigcommerce/checkout-sdk": "git+https://github.com/BC-ACherednichenko/checkout-sdk-js.git#1.999",
+    "@bigcommerce/checkout-sdk": "git+https://github.com/BC-ACherednichenko/checkout-sdk-js.git#2.0.0",
     "@bigcommerce/citadel": "^2.15.1",
     "@bigcommerce/form-poster": "^1.2.2",
     "@bigcommerce/memoize": "^1.0.0",
