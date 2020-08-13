@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.72.1-alpha.1597309609809](https://github.com/bigcommerce/checkout-js/compare/v1.66.1...v1.72.1-alpha.1597309609809) (2020-08-13)
+
+
+### Features
+
+* **checkout:** CHECKOUT-5089 Bump checkout-sdk version ([44d0a15](https://github.com/bigcommerce/checkout-js/commit/44d0a15c4e7f8ce1a2497b00cd7ef00ab5bd7dc0))
+* **checkout:** INT-2919 Change display text for bolt ([e3b50eb](https://github.com/bigcommerce/checkout-js/commit/e3b50eb7de71cee2c527dec68ce5cb50c607c34b))
+* **checkout:** INT-2919 Desplay bolt in checkout page ([d227d13](https://github.com/bigcommerce/checkout-js/commit/d227d1346cdbbbe53b130e8335f04ec19c1b9313))
+* **payment:** CHECKOUT-4947 Use hosted credit card fields for Braintree payment provider ([49d1e28](https://github.com/bigcommerce/checkout-js/commit/49d1e280127de7f7974105c03d863596d0a7feed))
+* **payment:** INT-2653 Accept payments through StripeV3 using Alipay ([12c816a](https://github.com/bigcommerce/checkout-js/commit/12c816a290d5e62d876d7c5033aac36e94ea221d))
+* **payment:** INT-2653 Bump version checkout sdk ([64a82b3](https://github.com/bigcommerce/checkout-js/commit/64a82b3e6e1989d9f765403bc9dc2e8b155f41b1))
+* **payment:** INT-2907 Bump SDK. ([9146066](https://github.com/bigcommerce/checkout-js/commit/9146066fd8f70004e6d179d0a7a4c74c2851be60))
+* **payment:** INT-2919 Bump SDK. ([4ac330b](https://github.com/bigcommerce/checkout-js/commit/4ac330b464e2cecc0d0f20000d9ecd08c5a88dfe))
+* **payments:** Paypal Hosted Credit Cards ([5c06340](https://github.com/bigcommerce/checkout-js/commit/5c06340897ccea354244fcd16de409779f47d02e))
+
+
+### Bug Fixes
+
+* **payment:** INT-2902  modified style in order to avoid  overlapping fields with small devices  on stripeV3 ([83f26f4](https://github.com/bigcommerce/checkout-js/commit/83f26f41dfcc282d8086880d90a6202433f4faec))
+
 ## [1.72.0](https://github.com/bigcommerce/checkout-js/compare/v1.71.0...v1.72.0) (2020-08-11)
 
 
