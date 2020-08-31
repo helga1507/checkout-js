@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.76.5-alpha.1598894691892](https://github.com/bigcommerce/checkout-js/compare/v1.76.5-alpha.1598625780020...v1.76.5-alpha.1598894691892) (2020-08-31)
+
+
+### Features
+
+* **payments:** PAYPAL-654 testing button popup ([67c05dd](https://github.com/bigcommerce/checkout-js/commit/67c05dd6dbb414230ce4082e3f6e6642950bea03))
+
 ### [1.76.5-alpha.1598625780020](https://github.com/bigcommerce/checkout-js/compare/v1.76.5-alpha.1598621200274...v1.76.5-alpha.1598625780020) (2020-08-28)
 
 ### [1.76.5-alpha.1598621200274](https://github.com/bigcommerce/checkout-js/compare/v1.76.5-alpha.1598620131288...v1.76.5-alpha.1598621200274) (2020-08-28)
