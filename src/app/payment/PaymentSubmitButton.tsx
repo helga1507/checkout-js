@@ -95,11 +95,12 @@ export default withCheckout(({ checkoutState }) => {
             isInitializingCustomer,
             isInitializingPayment,
             isSubmittingOrder,
+            isWaitingForInteraction,
         },
     } = checkoutState;
 
     return {
-        isInitializing: isInitializingCustomer() || isInitializingPayment(),
+        isInitializing: isInitializingCustomer() || isInitializingPayment() || !isWaitingForInteraction,
         isSubmitting: isSubmittingOrder(),
     };
 })(memo(PaymentSubmitButton));

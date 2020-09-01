@@ -19,7 +19,6 @@ const PaypalCommercePaymentMethod: FunctionComponent<PaypalCommercePaymentMethod
     return <HostedWidgetPaymentMethod
         { ...rest }
         containerId="paymentWidget"
-        disableSubmitButton={ true }
         initializePayment={ initializePayPalComemrcePayment }
     />;
 };
