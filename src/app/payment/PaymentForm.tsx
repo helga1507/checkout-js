@@ -75,6 +75,7 @@ const PaymentForm: FunctionComponent<PaymentFormProps & FormikProps<PaymentFormV
     onStoreCreditChange,
     onUnhandledError,
     resetForm,
+    submitForm,
     selectedMethod,
     shouldDisableSubmit,
     shouldExecuteSpamCheck,
@@ -130,6 +131,7 @@ const PaymentForm: FunctionComponent<PaymentFormProps & FormikProps<PaymentFormV
                 onMethodSelect={ onMethodSelect }
                 onUnhandledError={ onUnhandledError }
                 resetForm={ resetForm }
+                submitForm= { submitForm }
                 values={ values }
             />
 
@@ -141,6 +143,7 @@ const PaymentForm: FunctionComponent<PaymentFormProps & FormikProps<PaymentFormV
             /> }
 
             <div className="form-actions">
+                <div id="paymentButtonWidget"  />
                 <PaymentSubmitButton
                     isDisabled={ shouldDisableSubmit }
                     methodGateway={ selectedMethod && selectedMethod.gateway }
@@ -172,6 +175,7 @@ const PaymentMethodListFieldset: FunctionComponent<PaymentMethodListFieldsetProp
     methods,
     onMethodSelect = noop,
     onUnhandledError,
+    submitForm,
     resetForm,
     values,
 }) => {
@@ -221,6 +225,7 @@ const PaymentMethodListFieldset: FunctionComponent<PaymentMethodListFieldsetProp
                 methods={ methods }
                 onSelect={ handlePaymentMethodSelect }
                 onUnhandledError={ onUnhandledError }
+                submitForm={ submitForm }
             />
         </Fieldset>
     );

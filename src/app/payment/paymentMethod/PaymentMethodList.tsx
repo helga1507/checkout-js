@@ -78,6 +78,7 @@ interface PaymentMethodListItemProps {
     isUsingMultiShipping?: boolean;
     method: PaymentMethod;
     value: string;
+    submitForm?(): void;
     onUnhandledError?(error: Error): void;
 }
 
@@ -87,6 +88,7 @@ const PaymentMethodListItem: FunctionComponent<PaymentMethodListItemProps> = ({
     isUsingMultiShipping,
     method,
     onUnhandledError,
+    submitForm,
     value,
 }) => {
     const renderPaymentMethod = useMemo(() => (
@@ -95,6 +97,7 @@ const PaymentMethodListItem: FunctionComponent<PaymentMethodListItemProps> = ({
             isUsingMultiShipping={ isUsingMultiShipping }
             method={ method }
             onUnhandledError={ onUnhandledError }
+            submitForm={ submitForm }
         />
     ), [
         isEmbedded,

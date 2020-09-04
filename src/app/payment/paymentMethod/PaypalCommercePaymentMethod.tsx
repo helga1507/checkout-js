@@ -6,13 +6,15 @@ import HostedWidgetPaymentMethod, { HostedWidgetPaymentMethodProps } from './Hos
 export type PaypalCommercePaymentMethod = Omit<HostedWidgetPaymentMethodProps, 'containerId' | 'disableSubmitButton'>;
 
 const PaypalCommercePaymentMethod: FunctionComponent<PaypalCommercePaymentMethod> = ({
-                                                                              initializePayment,
-                                                                              ...rest
-                                                                          }) => {
+      initializePayment,
+      submitForm,
+      ...rest
+  }) => {
     const initializePayPalComemrcePayment = useCallback(options => initializePayment({
         ...options,
         paypalcommerce: {
-            container: '#paymentWidget',
+            container: '#paymentButtonWidget',
+            submitForm: submitForm,
         },
     }), [initializePayment]);
 

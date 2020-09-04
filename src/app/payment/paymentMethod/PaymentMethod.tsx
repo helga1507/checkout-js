@@ -35,6 +35,7 @@ export interface PaymentMethodProps {
     isEmbedded?: boolean;
     isUsingMultiShipping?: boolean;
     onUnhandledError?(error: Error): void;
+    submitForm?(): void;
 }
 
 export interface WithCheckoutPaymentMethodProps {
