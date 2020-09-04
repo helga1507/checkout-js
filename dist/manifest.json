@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "appVersion": "1.76.5-alpha.1599237681904",
+  "appVersion": "1.76.5-alpha.1599240885551",
   "dynamicChunks": {
     "js": [
       "billing-f5db1db1.js",
@@ -37,7 +37,7 @@
     "transients~checkout-57f81e56.js",
     "sentry~checkout-9e5675eb.js",
     "vendors~checkout-596773c5.js",
-    "checkout-c742b68a.js"
+    "checkout-bb02d497.js"
   ],
   "css": [
     "checkout-94718ffd.css"
