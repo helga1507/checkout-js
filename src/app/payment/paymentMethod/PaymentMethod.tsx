@@ -122,7 +122,8 @@ const PaymentMethodComponent: FunctionComponent<PaymentMethodProps & WithCheckou
         return <BraintreeCreditCardPaymentMethod { ...props } />;
     }
 
-    if (method.id === PaymentMethodId.PaypalCommerce) {
+    if (method.id === PaymentMethodId.PaypalCommerce ||
+        method.id === PaymentMethodId.PaypalCommerceCredit) {
         return <PaypalCommercePaymentMethod { ...props } />;
     }
 
