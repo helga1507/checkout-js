@@ -10,7 +10,7 @@ const PaypalCommercePaymentMethod: FunctionComponent<PaypalCommercePaymentMethod
       submitForm,
       ...rest
   }) => {
-    const initializePayPalComemrcePayment = useCallback(options => initializePayment({
+    const initializePayPalCommercePayment = useCallback(options => initializePayment({
         ...options,
         paypalcommerce: {
             container: '#paymentButtonWidget', // TODO add container for hosted submit button
@@ -21,7 +21,7 @@ const PaypalCommercePaymentMethod: FunctionComponent<PaypalCommercePaymentMethod
     return <HostedWidgetPaymentMethod
         { ...rest }
         containerId="paymentWidget"
-        initializePayment={ initializePayPalComemrcePayment }
+        initializePayment={ initializePayPalCommercePayment }
     />;
 };
 

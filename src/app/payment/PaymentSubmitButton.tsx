@@ -62,16 +62,20 @@ export interface PaymentSubmitButtonProps {
 interface WithCheckoutPaymentSubmitButtonProps {
     isInitializing?: boolean;
     isSubmitting?: boolean;
+    isShowEmbeddedSubmitButton?: boolean;
 }
 
 const PaymentSubmitButton: FunctionComponent<PaymentSubmitButtonProps & WithCheckoutPaymentSubmitButtonProps> = ({
     isDisabled,
     isInitializing,
     isSubmitting,
+    isShowEmbeddedSubmitButton,
     methodGateway,
     methodId,
     methodType,
-}) => (
+}) => isShowEmbeddedSubmitButton ?
+    <div id="paymentButtonWidget" />
+    : (
     <Button
         disabled={ isInitializing || isSubmitting || isDisabled }
         id="checkout-payment-continue"
@@ -95,11 +99,13 @@ export default withCheckout(({ checkoutState }) => {
             isInitializingCustomer,
             isInitializingPayment,
             isSubmittingOrder,
+            isShowEmbeddedSubmitButton,
         },
     } = checkoutState;
 
     return {
         isInitializing: isInitializingCustomer() || isInitializingPayment(),
         isSubmitting: isSubmittingOrder(),
+        isShowEmbeddedSubmitButton: isShowEmbeddedSubmitButton() || true,
     };
 })(memo(PaymentSubmitButton));
