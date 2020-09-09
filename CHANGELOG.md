@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.80.1-alpha.1599655136528](https://github.com/bigcommerce/checkout-js/compare/v1.80.0...v1.80.1-alpha.1599655136528) (2020-09-09)
+
+
+### Features
+
+* **payments:** PAYPAL-654 Embedded Submit button ([e543395](https://github.com/bigcommerce/checkout-js/commit/e5433952f59e7b128e87499f5a1e410c81f4cd1d))
+* **payments:** PAYPAL-654 test submit trigger action ([a9e4795](https://github.com/bigcommerce/checkout-js/commit/a9e479557a262a6ecbf0983c443fd3a9c3a834bc))
+
 ## [1.80.0](https://github.com/bigcommerce/checkout-js/compare/v1.79.0...v1.80.0) (2020-09-03)
 
 
