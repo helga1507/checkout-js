@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.82.3-alpha.1600272204878](https://github.com/bigcommerce/checkout-js/compare/v1.82.0...v1.82.3-alpha.1600272204878) (2020-09-16)
+
+
+### Features
+
+* **payment:** PAYPAL-654 add hidePaymentButton and isShown PAyment Button ([46af039](https://github.com/bigcommerce/checkout-js/commit/46af03992fb1fa772c952161e89b9d357cfa99f4))
+* **payment:** PAYPAL-654 Changes for PR ([69bc99a](https://github.com/bigcommerce/checkout-js/commit/69bc99a09b44f347a9ad6f6c6d17173a0645c5d9))
+* **payment:** PAYPAL-654 Embedded Submit button ([2f59dbc](https://github.com/bigcommerce/checkout-js/commit/2f59dbc174e16f9bd5a5b561895f6a58ece96dc7))
+* **payment:** PAYPAL-654 test submit trigger action ([a353ca6](https://github.com/bigcommerce/checkout-js/commit/a353ca6ea0a9f262e00dd45e6a713ce31f75b5ff))
+
+
+### Bug Fixes
+
+* **payment:** INT-3027 Bump checkout-sdk ([be4a4f4](https://github.com/bigcommerce/checkout-js/commit/be4a4f4c9e1c823819d1d403b7da28f33cd1a0ac))
+* **payment:** INT-3061 Bump checkout-sdk ([0dce2bf](https://github.com/bigcommerce/checkout-js/commit/0dce2bf682b049089149884601c6ef1d9ff02f8f))
+
 ### [1.82.2](https://github.com/bigcommerce/checkout-js/compare/v1.82.1...v1.82.2) (2020-09-11)
 
 
