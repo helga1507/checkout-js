@@ -2,6 +2,32 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.84.1-alpha.1600937151597](https://github.com/bigcommerce/checkout-js/compare/v1.82.0...v1.84.1-alpha.1600937151597) (2020-09-24)
+
+
+### Features
+
+* **payment:** INT-3061 added mandate link on confirmation page ([96075ae](https://github.com/bigcommerce/checkout-js/commit/96075ae32a707e09af70a6aa236b4380191f7155))
+* **payment:** PAYPAL-705 bump checkout-sdk version ([222cd5d](https://github.com/bigcommerce/checkout-js/commit/222cd5d0470804a8d26a548e53220f823a7a23c7))
+
+
+### Bug Fixes
+
+* **checkout:** CHECKOUT-5135 Upgrade checkout-sdk version ([8aef399](https://github.com/bigcommerce/checkout-js/commit/8aef399f280c0b8930fb9053b95ab6f0999147e1))
+* **checkout:** INT-3116 Hide Bolt on checkout ([e204ea0](https://github.com/bigcommerce/checkout-js/commit/e204ea0f576ce114cac1f068f373d15cee11bfb3))
+* **common:** CHECKOUT-5173 Fix server commands ([4fdef1e](https://github.com/bigcommerce/checkout-js/commit/4fdef1e63296b5c7eb21ef70bab886dd4580eada))
+* **common:** CHECKOUT-5173 update typo ([eca8211](https://github.com/bigcommerce/checkout-js/commit/eca82116e46d566ed19ae2ced5a2fedc02061318))
+* **payment:** CHECKOUT-5135 Bump checkout-sdk version ([182618b](https://github.com/bigcommerce/checkout-js/commit/182618bb75af49ea16525fa91d8e9b4251d85310))
+* **payment:** CHECKOUT-5135 Fix error handler for Braintree hosted form ([a62edcd](https://github.com/bigcommerce/checkout-js/commit/a62edcd6d3b9ed2828e70e4be402cf4213f2fe61))
+* **payment:** CHECKOUT-5161 Re-initialise credit card form after deleting last stored card ([306ae2a](https://github.com/bigcommerce/checkout-js/commit/306ae2a41507759157edf892f3e578e7114998ef))
+* **payment:** INT-3027 Bump checkout-sdk ([be4a4f4](https://github.com/bigcommerce/checkout-js/commit/be4a4f4c9e1c823819d1d403b7da28f33cd1a0ac))
+* **payment:** INT-3061 Bump checkout-sdk ([0dce2bf](https://github.com/bigcommerce/checkout-js/commit/0dce2bf682b049089149884601c6ef1d9ff02f8f))
+
+
+### Code Refactoring
+
+* **payment:** INT-3105 Update submit button text for AmazonPayV2 ([f775e9d](https://github.com/bigcommerce/checkout-js/commit/f775e9d9457b44e60f0357edccc302adfc9055e9))
+
 ## [1.84.0](https://github.com/bigcommerce/checkout-js/compare/v1.83.3...v1.84.0) (2020-09-23)
 
 
